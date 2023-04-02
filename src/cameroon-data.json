@@ -1,0 +1,163 @@
+[
+    {
+       "title":"Rey Bouba",
+       "desc":"Rey Bouba, Northern Cameroon",
+       "address":"Cameroon Northern region",
+       "hours": "Mon - Sun 24/7",
+       "geo":{
+          "lat":8.670336076995136,
+          "lon":14.178221155502767
+       },
+       "images":[
+          "ReyBouba.jpeg"
+       ],
+       "website":"Website coming soon",
+       "features":[
+          "outdoors",
+          "Desert"
+       ]
+    },
+    {
+       "title":"Kribi",
+       "desc":"Beautiful coastal city with pristine beaches and delicious food",
+       "address":"Ocean region of Cameroon",
+       "hours": "Mon - Sun 24/7",
+       "geo":{ 
+          "lat":2.9409834134576704,
+          "lon":9.910096980275085
+       },
+       "images":[
+          "Kribi.jpeg"
+       ],
+       "website":"website coming soon",
+       "features":[
+          "Beach",
+          "Ocean"
+       ]
+    },
+    {
+       "title":"Mt Manengouba",
+       "desc":"A volcano in the Southwest Province of Cameroon",
+       "address":"Southwest region of Cameroon",
+       "hours": "Mon - Sun 24/7",
+       "geo":{ 
+          "lat":5.0308120925699775,
+          "lon":9.831630740051066
+       },
+       "images":[
+          "montManengouba.jpeg"
+       ],
+       "features":[
+          "Mountain",
+          "green"
+       ]
+    },
+    {
+       "title":"Buea Tea fields",
+       "desc":"Tea field of the renowned Cameroonian tea",
+       "address":"Southwest region of Cameroon",
+       "hours": "Mon - Sun 24/7",
+       "geo":{
+          "lat":4.156611828577869,
+          "lon":9.264123463910781
+       },
+       "images":[
+          "TeaFieldBuea.jpeg"
+       ],
+       "features":[
+          "outdoors",
+          "fields",
+          "green"
+       ]
+    },
+    {
+       "title":"Mount Akoakas",
+       "desc":"Mount Akoakas towards Ebolowa, South Cameroon",
+       "address":"South Cameroon",
+       "hours": "Mon - Sun 24/7",
+       "geo":{ 
+          "lat":2.9283890184582857,
+          "lon":11.155582735019884
+       },
+       "images":[
+          "MontAkoakas.jpeg"
+       ],
+       "opens":"8am",
+       "closes":"9pm",
+       "features":[
+          "outdoors",
+          "Mountain"
+       ]
+    },
+    {
+       "title":"Marine Turtles",
+       "desc":"Yearly turtle migration in Kribi",
+       "address":"Ebodje beach, Cameroon",
+       "hours": "Mon - Fri 9am - 6pm",
+       "geo":{
+          "lat":2.56851215755029,
+          "lon":9.824332525901921
+       },
+       "images":[
+          "turtles.jpeg"
+       ],
+       "features":[
+          "turtles",
+          "beach",
+          "animals"
+       ]
+    },
+    {
+       "title":"Mayo Moskota",
+       "desc":"In the arid region of Cameroon's far north. Discover the endless desert in a beautiful countryside ",
+       "address":"Far north of Cameroon",
+       "hours": "Open at all times.",
+       "geo":{ 
+          "lat":11.133108621363958,
+          "lon":14.054720599952761
+       },
+       "images":[
+          "MayoMoskota.jpeg"
+       ],
+       "features":[
+          "outdoors",
+          "Desert",
+          "Dry"
+       ]
+    },
+    {
+       "title":"Campo Port",
+       "desc":"One of Cameroon port in the city of Campo",
+       "address":"Kribi, Cameroon",
+       "hours": "Mon - Sun 24/7",
+       "geo":{ 
+          "lat":2.7249478154228006,
+          "lon":9.862614478813766
+       },
+       "images":[
+          "KribiPort.jpeg"
+       ],
+       "features":[
+          "port",
+          "Kribi",
+          "Ocean"
+       ]
+    },
+    {
+       "title":"Mount Mbetkpi",
+       "desc":"Crater lake of Mount Mbetkpi, Noun region in western Cameroon",
+       "address":"Noun, Cameroon",
+       "hours": "Mon - Sun 24/7",
+       "geo":{ 
+          "lat":5.615812760647004,
+          "lon":10.846528060921168
+       },
+       "images":[
+          "MontMbetkpi.jpeg"
+       ],
+       "features":[
+          "outdoors",
+          "Mountain"
+       ]
+    }
+]

@@ -1,0 +1,24 @@
+.space {
+  width: 100%;
+  text-align: center;
+}
+
+.space > h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  font-size: 30px;
+}
+
+.space > img {
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.space > p {
+  font-weight: lighter;
+  line-height: 0;
+}
+
+a {
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+}
