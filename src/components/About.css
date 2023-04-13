@@ -2,3 +2,15 @@
     width: calc(100% - 100px);
     margin: auto;
 }
+
+/* For tablets */
+@media only screen and (max-device-width: 799px) and (min-device-width: 480px){
+
+}
+
+/* For phones */
+@media only screen and (max-device-width: 480px) {
+    .about p{
+        font-size: 1.5rem;
+    } 
+}

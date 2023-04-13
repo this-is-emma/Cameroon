@@ -1,22 +1,21 @@
 /*  src/Title.css  */
 .Title {
-    box-sizing: border-box;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    padding: 1em;
-    margin-bottom: 2em;
-    background-color: #f1c35a;
-    color: #fff;
-    font-size: large;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 1.5em;
+  background-color: #f1c35a;
+  color: #fff;
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 .Title-Subtitle {
     color: #fff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight:lighter;
 }
 
@@ -49,4 +48,24 @@
   display: inline-block;
   overflow: hidden;
   cursor: pointer;
+}
+
+
+
+/* For phones */
+@media only screen and (max-device-width: 480px) {
+  .Title {
+    box-sizing: border-box;
+    width: 108%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1.5em;
+    background-color: #f1c35a;
+    color: #fff;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
 }

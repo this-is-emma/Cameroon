@@ -1,8 +1,9 @@
 // src/POPOSDetails.js
 
-import React from 'react'
-import { useParams } from 'react-router'
-import data from '../cameroon-data.json'
+import React from 'react';
+import { useParams } from 'react-router';
+import data from '../cameroon-data.json';
+import './POPOSDetails.css';
 
 function POPOSDetails(props) {
   const params = useParams()
@@ -10,7 +11,7 @@ function POPOSDetails(props) {
   const { images, title, desc, hours, features, geo } = data[id]
 
   return (
-    <div>
+    <div className='POPOSDetail-container'>
       <div>
         <img src={`${process.env.PUBLIC_URL}images1/${images[0]}`} alt={title} />
       </div>
