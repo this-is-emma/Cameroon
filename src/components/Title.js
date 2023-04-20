@@ -5,20 +5,18 @@ import './Title.css';
 
 function Title() {
     return (
-        <div className="Title">
-            <header>
-                <h1>DISCOVER CAMEROON</h1> 
-                <div className="Title-Subtitle">
-                    <h3>The jewel in the heart of Africa</h3>
-                </div>
-                <div>
+        <header className="Title" aria-labelledby="title-heading">
+            <div>
+                <h1 id="title-heading">DISCOVER CAMEROON</h1> 
+                <h3 className="Title-Subtitle">The jewel in the heart of Africa</h3>
+                <nav>
                     <NavLink className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" } to="/">Home</NavLink>
                     <NavLink className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" } to="/about">About</NavLink>
                     <NavLink className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" } to="/subscribe">Subscribe</NavLink>
-                </div>
-            </header>
-        </div>
+                </nav>
+            </div>
+        </header>
     )
   }
   
-  export default Title
+  export default Title;

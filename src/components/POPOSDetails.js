@@ -11,20 +11,16 @@ function POPOSDetails(props) {
   const { images, title, desc, hours, features, geo } = data[id]
 
   return (
-    <div className='POPOSDetail-container'>
-      <div>
-        <img src={`${process.env.PUBLIC_URL}images1/${images[0]}`} alt={title} />
-      </div>
-
-      <div>
+    <section className='POPOSDetail-container' aria-label="space details">
+        <div>
+          <img src={`${process.env.PUBLIC_URL}images1/${images[0]}`} alt={title} />
+        </div>
         <h1>{ title }</h1>
         <p>{ desc }</p>
         <p>{ hours }</p>
         <p>{ features }</p>
         <p>{ geo.lat } { geo.lon }</p>
-      </div>
-
-    </div>
+    </section>
   )
 }
 

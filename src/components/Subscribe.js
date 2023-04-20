@@ -3,8 +3,8 @@ import './Subscribe.css';
 
 function Subscribe() {
   return (
-    <div className='subscribe'>
-        <h1>Register for our newsletter!</h1>
+    <article className='subscribe' aria-labelledby='subscribe-heading'>
+        <h1 id="subscribe-heading">Register for our newsletter!</h1>
         <form className='subscribe-form'>
             <label htmlFor="username">Username</label>
             <input type="text" className="username"/>
@@ -14,7 +14,7 @@ function Subscribe() {
             <input type="checkbox" className="checkbox"/>
             <input type="submit" value="Submit"/>
         </form>
-    </div>
+    </article>
   )
 }
 

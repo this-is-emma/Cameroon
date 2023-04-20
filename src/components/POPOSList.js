@@ -18,9 +18,9 @@ function POPOSList() {
       })
   
     return (
-      <div className="POPOSList">
+      <article className="POPOSList" aria-label="List of spaces">
         { spaces }
-      </div>
+      </article>
     )
   }
   

@@ -35,6 +35,12 @@ a {
   .space {
     text-align: center;
     margin: 0.5rem 0.5rem;
+    margin-bottom: 7rem;
+  }
+
+  .space figure{
+    width: 100%;
+    margin: 0;
   }
 
   .space img {
