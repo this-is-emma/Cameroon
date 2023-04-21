@@ -1,6 +1,6 @@
 .space {
   text-align: center;
-  margin: 6rem 1rem;
+  /*margin: 6rem 1rem;*/
 }
 
 .space h1 {
@@ -12,7 +12,6 @@
     border: 1px solid rgb(255, 255, 255);
     border-radius: 8px;
     width: 100%;
-    height: 90%;
 }
 
 .space p {
@@ -35,7 +34,6 @@ a {
   .space {
     text-align: center;
     margin: 0.5rem 0.5rem;
-    margin-bottom: 7rem;
   }
 
   .space figure{
@@ -47,7 +45,6 @@ a {
     border: 1px solid rgb(255, 255, 255);
     border-radius: 5px;
     width: 100%;
-    height: 90%;
   }
 }
 
@@ -55,13 +52,11 @@ a {
 @media only screen and (max-width: 700px)  and (min-device-width: 480px) {
   .space {
     text-align: center;
-    margin: 3rem 0.5rem;
   }
   
   .space img {
     border: 1px solid rgb(255, 255, 255);
     border-radius: 8px;
-    width: 70%;
-    height: 60%;
+    width: 100%;
   }
 }

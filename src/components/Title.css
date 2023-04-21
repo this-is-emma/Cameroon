@@ -7,21 +7,26 @@
   text-align: center;
   padding: 1.5em;
   background-color: #f1c35a;
-  color: #fff;
+  color: #851F00;
   font-size: large;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
 .Title-Subtitle {
-    color: #fff;
+    color: #851F00;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.5rem;
     font-weight:lighter;
 }
 
+#title-heading{
+  color: #851F00;
+}
+
 .nav-link{
   border: none;
-  color: rgb(175, 96, 0);
+  color: #851F00;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #ffffff;
   font-size: 15px;
